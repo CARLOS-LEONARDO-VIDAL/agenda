@@ -1,8 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "https://backend2-xyz.onrender.com/api/persons";
-
-
+//const baseUrl = 'https://backend2-s86u.onrender.com/api/persons';
+const baseUrl= "/api/persons"
 const getAll = () =>
   axios.get(baseUrl).then(response => response.data);
 
